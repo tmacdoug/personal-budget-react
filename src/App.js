@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 import {
   BrowserRouter as Router,
@@ -14,6 +14,7 @@ import HomePage from './HomePage/HomePage'
 import Footer from './Footer/Footer'
 import LoginPage from './LoginPage/LoginPage'
 import AboutPage from './AboutPage/AboutPage'
+import PieChart from './PieChart/PieChart';
 
 function App() {
   return (

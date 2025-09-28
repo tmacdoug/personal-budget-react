@@ -1,4 +1,6 @@
 import React from 'react';
+import PieChart from '../PieChart/PieChart';
+import D3Pie from '../D3Pie/D3Pie';
 
 function HomePage() {
   return (
@@ -64,16 +66,13 @@ function HomePage() {
             </article>
     
             <article>
-                <h2>Chart</h2>
-                <figure>
-                    <canvas id="myChart" width="400" height="400"></canvas>
-                    <figcaption>A pie chart that shows how your budget is divided across different categories.</figcaption>
-                </figure>
-            </article>
-            <article>
-                <figure>
-                    <div id="d3js-chart"></div>
-                </figure>
+                <div>
+                    <h2>Chart.js Pie Chart</h2>
+                    <PieChart/>
+
+                    <h2>D3JS Pie Chart</h2>
+                    <D3Pie/>
+                </div>
             </article>
 
         </section>
